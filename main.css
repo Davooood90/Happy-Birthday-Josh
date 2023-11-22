@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    background-color: #e3f5e8;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    margin-top: 56px;
+    min-height: calc(100vh - 148px);
+}
+
+section {
+    position: relative;
+}
+
+section .anchored span {
+    position: absolute;
+    top: -56px;
+}
+
+.header {
+    background-color: rgba(0, 66, 32, 0.664);
+    width: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.header-background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header h2 {
+    color: #ffffff;
+    font-size: 3vw;
+    margin: 0;
+}
+
+.header h1 {
+    font-family: 'Bubblegum Sans';
+    font-weight: 1000;
+    color: #ffffff;
+    font-size: 7vw;
+    margin: 5px 0 0 0;
+}
+
+.navbar {
+    background-color: #021e10;
+    height: 56px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.469);
+    font-family: Cambria;
+    padding: 0 40px 0 40px;
+    z-index: 3;
+
+}
+
+.container {
+    max-width: 80rem;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-width: 80%;
+    justify-content: center;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%;
+    /* IE 10 */
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
