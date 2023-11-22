@@ -101,6 +101,11 @@ section .anchored span {
     vertical-align: middle;
 }
 
+.column video {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
 .sticky {
     position: fixed;
     top: 0;
